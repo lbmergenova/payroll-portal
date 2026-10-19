@@ -83,6 +83,10 @@ body {
   padding: var(--space-2) var(--space-3);
 }
 
+.menu-item:hover {
+  background-color: var(--color-bg);
+}
+
 .menu-item.active {
   background: var(--color-active-bg);
   font-weight: bold;
@@ -137,4 +141,9 @@ thead th {
 
 .company-name {
   color: var(--color-muted);
+}
+
+.result-filters select:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
