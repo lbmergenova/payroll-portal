@@ -134,3 +134,7 @@ td {
 thead th {
   background: var(--color-bg);
 }
+
+.company-name {
+  color: var(--color-muted);
+}
