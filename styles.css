@@ -143,7 +143,22 @@ thead th {
   color: var(--color-muted);
 }
 
-.result-filters select:focus-visible {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 2px;
+label {
+  color: var(--color-muted);
+  font-size: 14px;
+}
+
+.num {
+  text-align: right;
+}
+
+.total-row {
+  font-weight: bold;
+}
+
+select {
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-border);
+  margin-right: var(--space-3);
+  margin-bottom: var(--space-2);
 }
