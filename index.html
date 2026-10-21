@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div class="logo">Д</div>
-      <h1 id="company-name">ТОО «Дала Технолоджи»</h1>
+      <h1 id="company">ТОО «Дала Технолоджи»</h1>
     </header>
 
     <div class="shell">
@@ -33,38 +33,38 @@
               <tr>
                 <th scope="col">Отдел</th>
                 <th scope="col">Должность</th>
-                <th scope="col">Оклад</th>
+                <th scope="col" class="num">Оклад</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>ИТ-отдел</td>
                 <td>Разработчик</td>
-                <td>600000</td>
+                <td class="num">600000</td>
               </tr>
               <tr>
                 <td>ИТ-отдел</td>
                 <td>Тестировщик</td>
-                <td>450000</td>
+                <td class="num">450000</td>
               </tr>
               <tr>
                 <td>Бухгалтерия</td>
                 <td>Бухгалтер</td>
-                <td>500000</td>
+                <td class="num">500000</td>
               </tr>
               <tr>
                 <td>Отдел продаж</td>
                 <td>Менеджер по продажам</td>
-                <td>400000</td>
+                <td class="num">400000</td>
               </tr>
               <tr>
                 <td>HR-отдел</td>
                 <td>HR-менеджер</td>
-                <td>450000</td>
+                <td class="num">450000</td>
               </tr>
-              <tr>
-                <td colspan="2"><strong>Итого</strong></td>
-                <td><strong>2400000</strong></td>
+              <tr class="total-row">
+                <td colspan="2">Итого</td>
+                <td class="num">2400000</td>
               </tr>
             </tbody>
           </table>
@@ -72,22 +72,300 @@
 
         <section class="section">
           <h2>Календарь</h2>
-          <p>Данные появятся в проекте 4.</p>
+          <p class="company-name">Предприятие: ТОО «Дала Технолоджи»</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Месяц</th>
+                <th scope="col" class="num">Норма рабочих дней</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td class="num">21</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td class="num">22</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
         <section class="section">
           <h2>Сотрудники</h2>
-          <p>Данные появятся в проекте 4.</p>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Имя</th>
+                <th scope="col">Фамилия</th>
+                <th scope="col">Должность</th>
+                <th scope="col">Отдел</th>
+                <th scope="col">Дата приёма</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Алия</td>
+                <td>Нурланова</td>
+                <td>Разработчик</td>
+                <td>ИТ-отдел</td>
+                <td>2022-03-01</td>
+              </tr>
+              <tr>
+                <td>Бек</td>
+                <td>Сериков</td>
+                <td>Тестировщик</td>
+                <td>ИТ-отдел</td>
+                <td>2024-07-15</td>
+              </tr>
+              <tr>
+                <td>Дана</td>
+                <td>Абенова</td>
+                <td>Бухгалтер</td>
+                <td>Бухгалтерия</td>
+                <td>2020-11-01</td>
+              </tr>
+              <tr>
+                <td>Ерасыл</td>
+                <td>Кайрат</td>
+                <td>Менеджер по продажам</td>
+                <td>Отдел продаж</td>
+                <td>2025-02-10</td>
+              </tr>
+              <tr>
+                <td>Гульнара</td>
+                <td>Оспанова</td>
+                <td>HR-менеджер</td>
+                <td>HR-отдел</td>
+                <td>2023-06-01</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
         <section class="section">
           <h2>Табель</h2>
-          <p>Данные появятся в проекте 4.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Месяц</th>
+                <th>Сотрудник</th>
+                <th class="num">Отработано дней</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td>Алия Нурланова</td>
+                <td class="num">21</td>
+              </tr>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td>Бек Сериков</td>
+                <td class="num">15</td>
+              </tr>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td>Дана Абенова</td>
+                <td class="num">20</td>
+              </tr>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td>Ерасыл Кайрат</td>
+                <td class="num">23</td>
+              </tr>
+              <tr>
+                <td>Сентябрь 2026</td>
+                <td>Гульнара Оспанова</td>
+                <td class="num">18</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td>Алия Нурланова</td>
+                <td class="num">22</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td>Бек Сериков</td>
+                <td class="num">15</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td>Дана Абенова</td>
+                <td class="num">20</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td>Ерасыл Кайрат</td>
+                <td class="num">22</td>
+              </tr>
+              <tr>
+                <td>Октябрь 2026</td>
+                <td>Гульнара Оспанова</td>
+                <td class="num">18</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
         <section class="section">
           <h2>Результат</h2>
-          <p>Данные появятся в проекте 4.</p>
+          <label for="month">Месяц:</label>
+          <select id="month" name="month">
+            <option value="2026-09">Сентябрь 2026</option>
+            <option value="2026-10" selected>Октябрь 2026</option>
+          </select>
+
+          <label for="department">Отдел:</label>
+          <select id="department" name="department">
+            <option value="all" selected>Все отделы</option>
+            <option value="it">ИТ-отдел</option>
+            <option value="accounting">Бухгалтерия</option>
+            <option value="sales">Отдел продаж</option>
+            <option value="hr">HR-отдел</option>
+          </select>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Отдел</th>
+                <th>Сотрудник</th>
+                <th class="num">Дни</th>
+                <th class="num">Окладная</th>
+                <th class="num">Премия</th>
+                <th class="num">Выслуга</th>
+                <th class="num">Начислено</th>
+                <th class="num">ИПН</th>
+                <th class="num">ОПВ</th>
+                <th class="num">На руки</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ИТ-отдел</td>
+                <td>Алия Нурланова</td>
+                <td class="num">22/22</td>
+                <td class="num">600000</td>
+                <td class="num">60000</td>
+                <td class="num">30000</td>
+                <td class="num">690000</td>
+                <td class="num">69000</td>
+                <td class="num">13800</td>
+                <td class="num">607200</td>
+              </tr>
+              <tr>
+                <td>ИТ-отдел</td>
+                <td>Бек Сериков</td>
+                <td class="num">15/22</td>
+                <td class="num">306818</td>
+                <td class="num">—</td>
+                <td class="num">—</td>
+                <td class="num">306818</td>
+                <td class="num">30682</td>
+                <td class="num">6136</td>
+                <td class="num">270000</td>
+              </tr>
+              <tr class="total-row">
+                <td colspan="2">ИТОГО ИТ-отдел</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">996818</td>
+                <td class="num">99682</td>
+                <td class="num">19936</td>
+                <td class="num">877200</td>
+              </tr>
+
+              <tr>
+                <td>Бухгалтерия</td>
+                <td>Дана Абенова</td>
+                <td class="num">20/22</td>
+                <td class="num">454545</td>
+                <td class="num">—</td>
+                <td class="num">45455</td>
+                <td class="num">500000</td>
+                <td class="num">50000</td>
+                <td class="num">10000</td>
+                <td class="num">440000</td>
+              </tr>
+              <tr class="total-row">
+                <td colspan="2">ИТОГО Бухгалтерия</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">500000</td>
+                <td class="num">50000</td>
+                <td class="num">10000</td>
+                <td class="num">440000</td>
+              </tr>
+
+              <tr>
+                <td>Отдел продаж</td>
+                <td>Ерасыл Кайрат</td>
+                <td class="num">22/22</td>
+                <td class="num">400000</td>
+                <td class="num">40000</td>
+                <td class="num">—</td>
+                <td class="num">440000</td>
+                <td class="num">44000</td>
+                <td class="num">8800</td>
+                <td class="num">387200</td>
+              </tr>
+              <tr class="total-row">
+                <td colspan="2">ИТОГО Отдел продаж</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">440000</td>
+                <td class="num">44000</td>
+                <td class="num">8800</td>
+                <td class="num">387200</td>
+              </tr>
+
+              <tr>
+                <td>HR-отдел</td>
+                <td>Гульнара Оспанова</td>
+                <td class="num">18/22</td>
+                <td class="num">368182</td>
+                <td class="num">—</td>
+                <td class="num">18409</td>
+                <td class="num">386591</td>
+                <td class="num">38659</td>
+                <td class="num">7732</td>
+                <td class="num">340200</td>
+              </tr>
+              <tr class="total-row">
+                <td colspan="2">ИТОГО HR-отдел</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">386591</td>
+                <td class="num">38659</td>
+                <td class="num">7732</td>
+                <td class="num">340200</td>
+              </tr>
+
+              <tr class="total-row">
+                <td colspan="2">ИТОГО предприятие</td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num"></td>
+                <td class="num">2323409</td>
+                <td class="num">232341</td>
+                <td class="num">46468</td>
+                <td class="num">2044600</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
       </main>
     </div>
