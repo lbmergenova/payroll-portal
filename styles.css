@@ -1,3 +1,4 @@
+/* 1. Сброс и переменные */
 * {
   box-sizing: border-box;
 }
@@ -17,6 +18,7 @@
   --space-4: 24px;
 }
 
+/* 2. База страницы */
 html,
 body {
   height: 100%;
@@ -32,6 +34,7 @@ body {
   line-height: 1.5;
 }
 
+/* 3. Шапка */
 .header {
   display: flex;
   align-items: center;
@@ -56,6 +59,7 @@ body {
   font-size: 20px;
 }
 
+/* 4. Каркас и меню */
 .shell {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -97,6 +101,7 @@ body {
   gap: var(--space-3);
 }
 
+/* 5. Секции */
 .section {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -109,6 +114,7 @@ body {
   color: var(--color-accent);
 }
 
+/* 6. Таблицы */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -125,11 +131,6 @@ thead th {
   background: var(--color-bg);
 }
 
-label {
-  color: var(--color-muted);
-  font-size: 14px;
-}
-
 .num {
   text-align: right;
 }
@@ -138,8 +139,10 @@ label {
   font-weight: bold;
 }
 
-.company {
+/* 7. Форма (фильтры) */
+label {
   color: var(--color-muted);
+  font-size: 14px;
 }
 
 select {
@@ -147,4 +150,9 @@ select {
   border: 1px solid var(--color-border);
   margin-right: var(--space-3);
   margin-bottom: var(--space-2);
+}
+
+/* 8. Вспомогательное */
+.company-name {
+  color: var(--color-muted);
 }
